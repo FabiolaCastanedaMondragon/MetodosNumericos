@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PET SHOP</string>
+    <string name="app_titulo">.::PET SHOP::.</string>
+    <string name="app_mensje"></string>
+    <string name="Monto">Monto de su compra</string>
+    <string name="cliente">TIPO DE CLIENTE:</string>
+    <string name="descuento">TIPO DE PAGO:</string>
+</resources>
