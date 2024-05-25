@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="50dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="93dp"
+            android:layout_height="96dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/esponja" />
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/app_titulo2"
+            android:textSize="22sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_numerolibro">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/app_text_numerolibro"
+            android:inputType="number"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_titulolibro">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtTitulolibro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/app_text_titulo"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="15dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_autorlibro">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtAutorlibro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/app_text_autor"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_edicionlibro">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtEdicionLibro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/app_text_edicion"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_anio">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtAnio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/app_text_anio"
+            android:inputType="number"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <Button
+        android:id="@+id/btnRegistar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_text_boton"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnNuevo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_text_boton2"
+        android:layout_marginTop="15dp"
+        />
+
+
+
+
+</LinearLayout>

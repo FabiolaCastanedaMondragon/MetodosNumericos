@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calendario</string>
+    <string name="app_titulo">TES JILOTEPEC</string>
+    <string name="app_titulo2">B I B L I O T E S J I</string>
+    <string name="app_text_numerolibro">NÙMERO DE LIBRO</string>
+    <string name="app_text_titulo">TITULO DEL LIBRO</string>
+    <string name="app_text_autor">AUTOR DEL LIBRO</string>
+    <string name="app_text_edicion">EDICIÒN DEL LIBRO</string>
+    <string name="app_text_anio">AÑO</string>
+    <string name="app_text_boton">REGISTRAR LIBRO</string>
+    <string name="app_text_boton2">NUEVO</string>
+</resources>
