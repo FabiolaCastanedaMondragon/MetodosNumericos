@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Olimpiada</string>
+    <string name="app_titulo">OLIMPIADA</string>
+    <string name="app_titulo2">OLIMPIADA</string>
+    <string name="app_text_nombre">INGRESE NOMBRE</string>
+    <string name="app_text_tiros">NÙMERO DE TIROS</string>
+    <string name="app_text_boton">RESULTADO</string>
+    <string name="app_text_botonn">SALIR</string>
+</resources>
