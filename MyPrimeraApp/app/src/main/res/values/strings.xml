@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyPrimeraApp</string>
+    <string name="app_titulo">TES JILOTEPEC</string>
+    <string name="app_titulo2">T E S J I :)</string>
+    <string name="app_text_nombre">INGRESE NOMBRE</string>
+    <string name="app_text_anacimiento">INGRESE EL AÑO DE NACIMIENTO</string>
+    <string name="app_text_boton">ENVIAR DATOS</string>
+</resources>
