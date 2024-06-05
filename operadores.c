@@ -20,14 +20,4 @@ int main(){
     printf(" false ^ false : %d\n",(0 ^ 1 ));
 
 return 0;
-   
-
-
-
-    
-
-
-
-    
-
 }
